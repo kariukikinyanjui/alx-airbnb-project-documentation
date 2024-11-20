@@ -1,1 +1,1 @@
-![features and functionalities](alx-airbnb-project-documentation/features-and-functionalities)
+![Features and functionalities](alx-airbnb-project-documentation/features-and-functionalities/design.png)
