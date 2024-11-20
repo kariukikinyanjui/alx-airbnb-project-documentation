@@ -1,1 +1,1 @@
-![Features and functionalities](/design.png)
+# Features and functionalities of a Booking management system
