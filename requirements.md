@@ -102,8 +102,7 @@
 
 `PATCH /api/properties/{id}`
 
-### Input: Partial updates allowed.
-
+### Input:(Partial updates allowed)
         `{
   "price_per_night": 60,
   "availability": {
@@ -132,7 +131,6 @@
 `POST /api/bookings`
 
 ### Input:
-
         `{
   "propertyId": 5678,
   "guestId": 1234,
@@ -141,7 +139,6 @@
 }`
 
 ### Output(200 OK):
-
         `{
   "message": "Booking request submitted",
   "bookingId": 9012
@@ -155,7 +152,6 @@
 `GET /api/bookings/{id}`
 
 ### Output(200 OK):
-
         `{
   "bookingId": 9012,
   "property": {
@@ -168,7 +164,6 @@
 `PATCH /api/bookings/{id}`(For Hosts to Approve/Reject)
 
 ### Input:
-
         `{
   "status": "approved"
 }`
