@@ -34,7 +34,7 @@
 `POST /api/auth/login`
 
 * Input:
-        '{
+        `{
   "email": "user@example.com",
   "password": "SecurePassword123"
 }`
