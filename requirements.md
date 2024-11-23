@@ -9,7 +9,8 @@
 ### API Endpoints
 
 `Post /api/auth/register`
-    * Input
+
+* Input
         `{
   "email": "user@example.com",
   "password": "SecurePassword123",
