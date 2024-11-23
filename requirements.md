@@ -10,7 +10,7 @@
 
 `Post /api/auth/register`
 
-### Input:
+* Input:
 
         `{
   "email": "user@example.com",
@@ -18,7 +18,7 @@
   "role": "guest"
 }`
 
-### Output(200 OK):
+* Output(200 OK):
 
         `{
   "message": "User registered successfully",
@@ -35,27 +35,27 @@
 
 `POST /api/auth/login`
 
-### Input:
+* Input:
 
         '{
   "email": "user@example.com",
   "password": "SecurePassword123"
 }`
 
-### Output(200 OK):
+* Output(200 OK):
         `{
   "token": "eyJhbGciOiJIUzI1NiIsInR5..."
 }`
 
 `POST /api/auth/reset-password`
 
-### Input:
+* Input:
 
         `{
   "email": "user@example.com"
 }`
 
-### Output(200 OK):
+* Output(200 OK):
 
         `{
   "message": "Password reset email sent."
@@ -74,7 +74,7 @@
 
 `POST /api/properties`
 
-### Input:
+* Input:
 
         `{
   "title": "Cozy Apartment",
@@ -88,7 +88,7 @@
   }
 }`
 
-### Output(200 OK):
+* Output(200 OK):
 
         `{
   "message": "Property added successfully",
@@ -102,7 +102,7 @@
 
 `PATCH /api/properties/{id}`
 
-### Input:(Partial updates allowed)
+* Input:(Partial updates allowed)
         `{
   "price_per_night": 60,
   "availability": {
@@ -130,7 +130,7 @@
 
 `POST /api/bookings`
 
-### Input:
+* Input:
         `{
   "propertyId": 5678,
   "guestId": 1234,
@@ -138,7 +138,7 @@
   "check_out_date": "2024-06-10"
 }`
 
-### Output(200 OK):
+* Output(200 OK):
         `{
   "message": "Booking request submitted",
   "bookingId": 9012
@@ -151,7 +151,7 @@
 
 `GET /api/bookings/{id}`
 
-### Output(200 OK):
+* Output(200 OK):
         `{
   "bookingId": 9012,
   "property": {
@@ -163,7 +163,7 @@
 
 `PATCH /api/bookings/{id}`(For Hosts to Approve/Reject)
 
-### Input:
+* Input:
         `{
   "status": "approved"
 }`
