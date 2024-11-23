@@ -11,7 +11,6 @@
 `Post /api/auth/register`
 
 * Input:
-
         `{
   "email": "user@example.com",
   "password": "SecurePassword123",
@@ -19,7 +18,6 @@
 }`
 
 * Output(200 OK):
-
         `{
   "message": "User registered successfully",
   "userId": 1234
@@ -36,7 +34,6 @@
 `POST /api/auth/login`
 
 * Input:
-
         '{
   "email": "user@example.com",
   "password": "SecurePassword123"
@@ -50,13 +47,11 @@
 `POST /api/auth/reset-password`
 
 * Input:
-
         `{
   "email": "user@example.com"
 }`
 
 * Output(200 OK):
-
         `{
   "message": "Password reset email sent."
 }`
@@ -75,7 +70,6 @@
 `POST /api/properties`
 
 * Input:
-
         `{
   "title": "Cozy Apartment",
   "description": "A comfortable apartment in the city center.",
@@ -89,7 +83,6 @@
 }`
 
 * Output(200 OK):
-
         `{
   "message": "Property added successfully",
   "propertyId": 5678
@@ -129,7 +122,6 @@
 ### API Endpoints
 
 `POST /api/bookings`
-
 * Input:
         `{
   "propertyId": 5678,
