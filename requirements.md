@@ -47,8 +47,10 @@
   "email": "user@example.com"
 }```
 
-        ### Output(201 Created)"
-            ```{
+        ### Output(201 Created):
+            ```
+                {
   "message": "Password reset email sent."
-}```
+}
+```
 
